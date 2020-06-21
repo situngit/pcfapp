@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PCFApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="no_data">No data available</string>
+    <string name="url">Url</string>
+</resources>

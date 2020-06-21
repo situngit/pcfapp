@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        android:id="@+id/ll_row"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dp_10"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dp_10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sp_16"
+                    android:layout_height="wrap_content"
+                    android:text="@string/id"/>
+                <TextView
+                    android:id="@+id/tv_id"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/sp_16"
+                    android:layout_height="wrap_content"
+                    android:text="@string/id"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sp_16"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"/>
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/sp_16"
+                    android:layout_height="wrap_content"
+                    android:text="@string/id"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sp_16"
+                    android:layout_height="wrap_content"
+                    android:text="@string/full_name"/>
+                <TextView
+                    android:id="@+id/tv_full_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/sp_16"
+                    android:layout_height="wrap_content"
+                    android:text="@string/id"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sp_16"
+                    android:layout_height="wrap_content"
+                    android:text="@string/url"/>
+                <TextView
+                    android:id="@+id/tvUrl"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/sp_16"
+                    android:layout_height="wrap_content"
+                    android:text="@string/id"
+                    android:autoLink="web"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
